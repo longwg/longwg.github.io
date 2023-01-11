@@ -176,17 +176,32 @@
 							<span style="font-size:18px">Nanjing University, Nanjing, China</span>
 						</center>
 				</tr>
+				</table>
+			&nbsp;
+			<table align=center width=400px>
+				<tr>
+					<td align=center width=200px>
+						<center>
+							<span style="font-size:20px">AAAI 2023(Oral)</span>
+						</center>
+					</td>
+				</tr>
 			</table>
 			<table align=center width=250px>
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+							<span style="font-size:18px"><a href='./resources/RAFaRe_AAAI2023.pdf'>[Paper]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+							<span style="font-size:18px"><a href='./resources/RAFaRe_AAAI2023_sup.pdf'>[Supp]</a></span>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:18px"><a href='https://github.com/zhuhao-nju/rafare'>[GitHub]</a></span><br>
 						</center>
 					</td>
 				</tr>
@@ -199,7 +214,7 @@
 			<tr>
 				<td width=260px>
 					<center>
-						<img class="round" style="width:500px" src="./resources/teaser.png"/>
+						<img class="round" style="width:750px" src="./resources/teaser.jpg"/>
 					</center>
 				</td>
 			</tr>
@@ -207,7 +222,8 @@
 		<table align=center width=850px>
 			<tr>
 				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
+					<span style="font-size:15px">Our method reconstructs high-fidelity and accurate geometry that is generalized for different races, views, lighting
+and ages. We recommend watching the supplementary video for more results.</span>			
 				</td>
 			</tr>
 		</table>
@@ -215,20 +231,20 @@
 
 	<hr>
 
-	<table align=center width=850px>
+	<table align=center width=900px>
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+				We propose a robust and accurate non-parametric method for single-view 3D face reconstruction (SVFR). While tremendous efforts have been devoted to parametric SVFR, a visible gap still lies between the result 3D shape and the ground truth. We believe there are two major obstacles: 1) the representation of the parametric model is limited to a certain face database; 2) 2D images and 3D shapes in the fitted datasets are distinctly misaligned. To resolve these issues, a large-scale pseudo 2D\&3D dataset is created by first rendering the detailed 3D faces, then swapping the face in the wild images with the rendered face. These pseudo 2D\&3D pairs are created from publicly available datasets which eliminate the gaps between 2D and 3D data while covering diverse appearances, poses, scenes, and illumination. We further propose a non-parametric scheme to learn a well-generalized SVFR model from the created dataset, and the proposed hierarchical signed distance function turns out to be effective in predicting middle-scale and small-scale 3D facial geometry. Our model outperforms previous methods on FaceScape-wild/lab and MICC benchmarks and is well generalized to various appearances, poses, expressions, and in-the-wild environments.
 			</td>
 		</tr>
 	</table>
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
+	<center><h1>Video</h1></center>
 	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
 	</p>
 
 	<table align=center width=800px>
@@ -256,7 +272,7 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+					<td><img class="round" style="width:450px" src="./resources/pipeline1.jpg"/></td>
 				</center>
 			</td>
 		</tr>
@@ -265,7 +281,25 @@
 		<center>
 			<tr>
 				<td>
-					Short description if wanted
+					Overview of the proposed pseudo 2D&3D pair synthesis pipeline.
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=400px>
+		<tr>
+			<td align=center width=400px>
+				<center>
+					<td><img class="round" style="width:450px" src="./resources/pipeline2.jpg"/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					Overview of the hierarchical SDF-based network.
 				</td>
 			</tr>
 		</center>
@@ -273,7 +307,7 @@
 	<table align=center width=800px>
 		<br>
 		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
+			<span style="font-size:20px">&nbsp;<a href='https://github.com/zhuhao-nju/rafare'>[GitHub]</a>
 			</center>
 		</span>
 	</table>
