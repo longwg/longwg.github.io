@@ -1,0 +1,6 @@
+@inproceedings{guo2023rafare,
+  title={RAFaRe: Learning Robust and Accurate Non-parametric 3D Face Reconstruction from Pseudo 2D&3D Pairs},
+  author={Guo, Longwei and Zhu, Hao and Lu, Yuanxun and Wu, Menghua and Cao, Xun},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
+}
